@@ -14,119 +14,108 @@
       <!-- Add bootstrap icons (it's basically a custom font) -->
       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
       </head>
-      <!-- REMOVE NOTE HERE TO USE LINK FOR EXTERNAL STYLESHEET
-         <link rel="stylesheet" type="text/css" href="style.css">
-         -->
-
-      <!-- IF NOt USING EXTERNAL STYLESHEET (WHICH YOU SHOULD FOR ALL FUTURE ASSIGNMENTS), THIS IS WHERE STYLES  GO between <style></style>
-      <style>
-         .bi {
-         font-size:3em;
-         }
-         .col-md-4 {
-         text-align: center;
-         }
-         .bigicon {
-         font-size:5em;
-         }
-         .columnstyle {
-         background-color: blue;
-         text-align: right;
-         }
-         .col-md-12 {
-         text-align:  center;
-         }
-      </style>-->
-      <!-- end of style. But, as you can see above, there is an external stylesheet in the <head> providing style instructions. You should be doing that too.  -->
-
-   <body>
-      <!-- Navbar start-->
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-         <div class="container-fluid">
-            <a class="navbar-brand" href="#">Bugs N Drugs</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-               <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item dropdown">
-                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                     Bugs
-                     </a>
-                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <li><a class="dropdown-item" href="#">Action</a></li>
-                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                        <li>
-                           <hr class="dropdown-divider">
-                        </li>
-                        <li><a class="dropdown-item" href="#">Something else here</a></li>
-                     </ul>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Drugs
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                       <li><a class="dropdown-item" href="#">Action</a></li>
-                       <li><a class="dropdown-item" href="#">Another action</a></li>
-                       <li>
-                          <hr class="dropdown-divider">
-                       </li>
-                       <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    </ul>
-                 </li>
-               </ul>
-            </div>
-         </div>
-      </nav>
-      <!-- Navbar end-->
-      <!-- Start container-->
-      <div class="container">
-        <div></div>
-         <div class="row justify-content-center">
-        
-            <div class="col-md-4">
-                <i class="bi bi-bug-fill"></i>
-               <h3>Bugs</h3>
-               <p>Select body system below</p>
-               <!-- Example single danger button -->
-                <div class="btn-group">
-                    <button type="button" class="btn btn-dark dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-                    Action
-                    </button>
-                    <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">Action</a></li>
-                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                    <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    <li><hr class="dropdown-divider"></li>
-                    <li><a class="dropdown-item" href="#">Separated link</a></li>
-                    </ul>
+ 
+    <body>
+        <!-- Navbar start-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Bugs N Drugs</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Body System
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">HEENT</a></li>
+                            <li><a class="dropdown-item" href="#">Respiratory</a></li>
+                            <li><a class="dropdown-item" href="#">Cardiac</a></li>
+                            <li><a class="dropdown-item" href="#">GI</a></li>
+                            <li><a class="dropdown-item" href="#">GU</a></li>
+                            <li><a class="dropdown-item" href="#">Musculoskeletal</a></li>
+                            <li><a class="dropdown-item" href="#">Derm</a></li>
+                        </ul>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Antibiotic Class
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="penicillin.html">Penicillin</a></li>
+                            <li><a class="dropdown-item" href="#">Cephalosporin</a></li>
+                            <li><a class="dropdown-item" href="#">Tetracyclines</a></li>
+                            <li><a class="dropdown-item" href="#">Rifampin</a></li>
+                            <li><a class="dropdown-item" href="#">Beta-Lactam Inhibitors</a></li>
+                            <li><a class="dropdown-item" href="#">Carbapenems</a></li>
+                            <li><a class="dropdown-item" href="#">Macrolides</a></li>
+                            <li><a class="dropdown-item" href="#">Aminoglycosides</a></li>
+                            <li><a class="dropdown-item" href="#">Lincosamides</a></li>
+                            <li><a class="dropdown-item" href="#">Fluoroquinolones</a></li>
+                            <li><a class="dropdown-item" href="#"> Metrondiazole</a></li>
+                            <li><a class="dropdown-item" href="#">Sulfonamides</a></li>
+                            <li><a class="dropdown-item" href="#">Glycopeptide</a></li>
+                        </ul>
+                    </li>
+                </ul>
                 </div>
             </div>
-            <div class="col-md-4">
-                <i class="bi bi-prescription"></i>
-                <h3>Drugs</h3>
-                <p>Select body system below</p>
+        </nav>
+        <!-- Navbar end-->
+        <!-- Start container-->
+        <div class="container">
+            <div class="row justify-content-center">
+            
+                <div class="col-md-4">
+                    <i class="bi bi-bug-fill"></i>
+                <h3>Bugs</h3>
                 <!-- Example single danger button -->
-                <div class="btn-group">
-                    <button type="button" class="btn btn-dark dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-                    Action
-                    </button>
-                    <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">Action</a></li>
-                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                    <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    <li><hr class="dropdown-divider"></li>
-                    <li><a class="dropdown-item" href="#">Separated link</a></li>
-                    </ul>
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-dark dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                        Body System
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">HEENT</a></li>
+                            <li><a class="dropdown-item" href="#">Respiratory</a></li>
+                            <li><a class="dropdown-item" href="#">Cardiac</a></li>
+                            <li><a class="dropdown-item" href="#">GI</a></li>
+                            <li><a class="dropdown-item" href="#">GU</a></li>
+                            <li><a class="dropdown-item" href="#">Musculoskeletal</a></li>
+                            <li><a class="dropdown-item" href="#">Derm</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <i class="bi bi-prescription"></i>
+                    <h3>Drugs</h3>
+                    <!-- Example single danger button -->
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-dark dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                        Antibiotic Class
+                        </button>
+                        <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Penicillin</a></li>
+                        <li><a class="dropdown-item" href="#">Cephalosporin</a></li>
+                        <li><a class="dropdown-item" href="#">Tetracyclines</a></li>
+                        <li><a class="dropdown-item" href="#">Rifampin</a></li>
+                        <li><a class="dropdown-item" href="#">Beta-Lactam Inhibitors</a></li>
+                        <li><a class="dropdown-item" href="#">Carbapenems</a></li>
+                        <li><a class="dropdown-item" href="#">Macrolides</a></li>
+                        <li><a class="dropdown-item" href="#">Aminoglycosides</a></li>
+                        <li><a class="dropdown-item" href="#">Lincosamides</a></li>
+                        <li><a class="dropdown-item" href="#">Fluoroquinolones</a></li>
+                        <li><a class="dropdown-item" href="#"> Metrondiazole</a></li>
+                        <li><a class="dropdown-item" href="#">Sulfonamides</a></li>
+                        <li><a class="dropdown-item" href="#">Glycopeptide</a></li>
+                        </ul>
+                    </div>
                 </div>
             </div>
-        
-         </div>
-      </div>
-      <!-- end container-->
-      <!-- Separate Popper and Bootstrap JS goes at the bottom of your body section -->
-      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
-   </body>
+        </div>
+        <!-- end container-->
+        <!-- Separate Popper and Bootstrap JS goes at the bottom of your body section -->
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
+    </body>
 </html>
