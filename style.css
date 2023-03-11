@@ -1,28 +1,62 @@
+body {
+    margin: 0 auto;
+}
+/*styling for the bugs and drugs icons */
 .bi {
     font-size:3em;
     }
   
+/*styles the columns */
 .col-md-4 {
     text-align: center;
     padding: 4em 1em 4em 1em;
     }
-    
-.bigicon {
-    font-size:5em;
-    }
-    
-.columnstyle {
-    background-color: blue;
-    text-align: right;
-    }
-    
-.col-md-12 {
-    text-align:  center;
-    }
-h1 {
+/*the logo in the navbar*/
+.logo {
+    height: 5em; 
+}
+/*the logo on each page that is above the acordion */
+.logo-header {
+    width: 50%;
+}
+/*the text that is on each page above the acordion */
+.header-text {
+    padding-top: .5em;
+    font-size: 5em;
+}
+.big-words {
+    font-size: 3em;
+}
+
+footer {
+    background-color: black;
+    width: 100%;
+    color:white;
+    padding: 10px 10px 10px 10px;
+    margin: 100px 0px 0px 0px;
     text-align: center;
 }
-.logo {
-    width: 5em; 
-    height:5em;
+
+/*makes the logo and header text above acordion on each page smaller on small screens */
+
+@media screen and (max-width: 900px) {
+  /*for ipads*/
+    .header-text {
+        padding-top: 1em;
+        font-size: 2em;
+    }
+}
+/*for mobile ... yeah 600px is a tad large but w/e hides the logo and makes text larger*/
+@media screen and (max-width: 600px) {
+    .logo-header {
+      width: 30%;
+     
+    }
+    .col-md-4{
+        padding:10px 0px 10px 0px
+    }
+    .header-text {
+        padding-top: 0px;
+        font-size: 3em;
+    }
 }
