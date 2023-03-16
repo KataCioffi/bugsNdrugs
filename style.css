@@ -5,6 +5,10 @@ body {
 .bi {
     font-size:3em;
     }
+
+.navbar {
+    font-size: 1.5em;
+}
   
 /*styles the columns */
 .col-md-4 {
