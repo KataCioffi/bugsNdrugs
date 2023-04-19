@@ -41,6 +41,10 @@ footer {
     text-align: center;
 }
 
+h4 {
+    color:black;
+}
+
 /*makes the logo and header text above acordion on each page smaller on small screens */
 
 @media screen and (max-width: 900px) {
